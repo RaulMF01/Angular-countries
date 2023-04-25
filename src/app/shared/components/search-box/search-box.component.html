@@ -3,5 +3,6 @@
     [placeholder]="placeholder"
     class="form-control"
     (keyup.enter)="emitValue(txtSearchbyComponent.value)"
+    (keyup)="onkeyPress(txtSearchbyComponent.value)"
     #txtSearchbyComponent
 />
